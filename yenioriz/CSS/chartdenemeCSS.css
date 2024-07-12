@@ -1,0 +1,97 @@
+﻿@font-face {
+    font-family: 'poppins-bold';
+    src: url('../dokuiz/fonts/poppins-bold.ttf') format('truetype');
+}
+
+*{
+    font-family:poppins-bold;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.chart {
+    position: relative;
+    width: 270px;
+    height: 270px;
+    background-color: #B4B4B3;
+    border-radius: 50%;
+    overflow: hidden;
+    /*border: 1px solid;*/
+}
+
+.percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bold;
+    color: #27374D;
+    transition: all 0.5s ease-in-out;
+}
+
+.chart:hover .percentage {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.chart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    transition: all 0.5s ease-in-out;
+}
+
+.chart:hover .percentage {
+    transform: translate(-50%, -50%) scale(1.2);
+}*/
+
+/* Tire */
+/*.chart::before,
+.chart::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.chart::before {
+    top: 25px;
+    left: 25px;
+}
+
+.chart::after {
+    top: 25px;
+    right: 25px;
+}*/

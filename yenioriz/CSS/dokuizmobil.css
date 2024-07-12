@@ -1,0 +1,12 @@
+﻿@font-face {
+    font-family: 'poppins-bold';
+    src: url('../dokuiz/fonts/poppins-bold.ttf') format('truetype');
+}
+
+*{
+    font-family:poppins-bold;
+}
+
+
+body {
+}
